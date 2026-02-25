@@ -83,7 +83,7 @@ You can host this dashboard for free using [Streamlit Community Cloud](https://s
 
 ### 1. Push to GitHub
 Ensure your repository contains the following essential files:
-* **`mood-board-web.py`**: The main application code. *This code must be modified for your own google sheets' url of .csv and password before use.*
+* **`mood-web.py`**: The main application code. *This code must be modified for your own google sheets' url of .csv and password before use.*
 * **`requirements.txt`**: List of dependencies including `streamlit`, `pandas`, `matplotlib`, `seaborn`, `wordcloud`, and `scikit-learn`.
 
 ### 2. Connection
@@ -96,7 +96,7 @@ Update the url variable in main.py with your Google Sheets CSV URL:
 ### 3. Connect to Streamlit Cloud
 1. Log in to [Streamlit Community Cloud](https://share.streamlit.io/) using your GitHub account.
 2. Click **"New app"**.
-3. Select your repository, branch (usually `main`), and the main file path (`mood-board-web.py`).
+3. Select your repository, branch (usually `main`), and the main file path (`mood-web.py`).
 
 ### 4. Public vs. Private Repositories
 * **Public Repository**: Streamlit can access and deploy your app instantly without extra configuration.
